@@ -41,7 +41,7 @@ a:hover {
     text-decoration: none; /* removes the line bellow the link text */
 }
 h1 {
-    font-size: 60px;
+    font-size: 45px;
     line-height: 120%;
     margin: 20px 0;
 }
@@ -99,10 +99,25 @@ header {
     background-image: url(../images/joanna-kosinska-unsplash.jpg);
     background-size: cover;
     background-position: top right;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 .education p {
     width: 60%;
+}
+
+/* Reseraches
+-------------------------------------------------*/
+.researches {
+    background: #DCDCDC;
+}
+.researches h2 {
+    margin-bottom: 10px;
+}
+.researches p {
+    margin-top: 0;
+}
+.researches a {
+    color: #050A30;
 }
 
 /* Contact Info
@@ -118,6 +133,25 @@ footer {
 .contact-list a {
     padding: 15px;
     display: inline-block;
+}
+
+/* Back to top button
+-------------------------------------------------*/
+.back-to-top {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 200; /* Make sure it does not overlap */
+    color: #DCDCDC;
+    background: #050A30;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 4px;
+    opacity: 0.3;
+}
+.back-to-top:hover {
+    cursor: pointer;
+    opacity: 1;
 }
 
 /* Responsive styles
